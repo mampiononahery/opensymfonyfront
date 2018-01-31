@@ -1,0 +1,13 @@
+oc_platform_homepage:
+    path:     /
+    defaults: { _controller: OCPlatformBundle:Default:index }
+
+oc_advert_page_list:
+    path: /platform/advert/{id}
+    defaults: { _controller: OCPlatformBundle:Advert:show}
+oc_add_advert:
+    path: /platform/advert/add/{id}
+    defaults: { _controller: OCPlatformBundle:Advert:add}
+oc_list_tag_advert:
+    path: /platform/advert/list/
+    defaults: { _controller: OCPlatformBundle:Advert:list}
